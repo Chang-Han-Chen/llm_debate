@@ -1,0 +1,56 @@
+defaults:
+  - ../../config.yaml
+  - _self_
+
+debater_type: "tree_search"
+BoN: ${tree_search.root_branching}  # Link to tree search config for consistency
+
+tree_search:
+  enabled: true
+  root_branching: 4        # Default value, can be overridden
+  child_branching: 2       # Default value, can be overridden
+  depth: 2                 # Default value, can be overridden
+  exploration_temp: 0.8    # Default value, can be overridden
+  
+  # Tree-search specific prompts
+  opponent_prompt: |
+    You are now playing the opposite side in this debate.
+    Previous argument: {previous_argument}
+    
+    Debate history:
+    {debate_history}
+    
+    Provide a strong counter-argument that addresses the weaknesses in the previous argument.
+    Focus on logical flaws, missing evidence, or alternative interpretations.
+    Your response should be specific and directly challenge the key points made.
+    
+    Respond in this format:
+    <argument>
+    Your counter-argument here
+    </argument>
+
+  response_prompt: |
+    Given this debate history:
+    {debate_history}
+    
+    And the opponent's latest argument:
+    {opponent_argument}
+    
+    Provide a strong response that defends and strengthens our position.
+    Address the specific criticisms raised and reinforce our key points with additional evidence or reasoning.
+    
+    Respond in this format:
+    <argument>
+    Your response here
+    </argument>
+
+language_model:
+  model: ${correct_debater.language_model.model}
+  temperature: ${correct_debater.language_model.temperature}
+  top_p: 1.0
+  max_tokens: 1000
+  max_words: 200
+  min_words: 50
+
+# You can override other base config parameters here as needed for this specific experiment
+# ... rest of standard config ... 

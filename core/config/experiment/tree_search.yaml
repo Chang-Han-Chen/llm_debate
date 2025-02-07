@@ -1,0 +1,24 @@
+# @package _global_
+
+defaults:
+  - debaters/v1_tree_search@correct_debater
+  - debaters/v1_tree_search@incorrect_debater
+  - rollout: sim
+  - judge/debate/default@judge
+  - judge/debate/preference@correct_preference
+  - judge/debate/preference@incorrect_preference
+  - judge/debate/intermediary@cross_examiner
+  - judge/debate/concession@concession_judge
+  - _self_
+
+method: debate
+method_type: sim
+use_intermediary: false
+
+# Tree search specific configurations
+tree_search:
+  enabled: true
+  root_branching: 4        # Number of initial responses (similar to BoN)
+  child_branching: 2       # Number of responses at other levels
+  depth: 2                 # Number of response levels after root
+  exploration_temp: 0.8    # Temperature for exploration

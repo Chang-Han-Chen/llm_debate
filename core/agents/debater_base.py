@@ -18,6 +18,13 @@ side_mapping = {
 }
 
 
+class TreeSearchConfig(BaseModel):
+    enabled: bool = False
+    depth: int = 2
+    branching_factor: int = 2
+    exploration_temp: float = 0.8
+
+
 class DebaterConfig(BaseModel):
     language_model: LanguageModelConfig
     prompts: PromptConfig
@@ -33,6 +40,7 @@ class DebaterConfig(BaseModel):
     transcript_quotes: Optional[str] = None
     permissions: Optional[dict] = None
     few_shot_base: Optional[str] = None
+    tree_search: Optional[TreeSearchConfig] = None
 
 
 class DebaterBase:

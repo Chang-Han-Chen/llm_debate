@@ -21,6 +21,7 @@ class JudgeQuality(JudgeBase):
                 "gpt-4-1106-preview",
                 "gpt-4-base",
                 "gpt-3.5-turbo-instruct",
+                "gpt-4o-2024-08-06",
             ], "Only davinci and gpt-4-base support logprobs"
             LOGGER.info(f"Using logprobs: {self.config.use_logprobs}")
 

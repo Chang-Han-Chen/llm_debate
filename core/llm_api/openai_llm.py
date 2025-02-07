@@ -36,7 +36,9 @@ def price_per_token(model_id: str) -> tuple[float, float]:
     """
     Returns the (input token, output token) price for the given model id.
     """
-    if model_id == "gpt-4-1106-preview":
+    if model_id == "gpt-4o-2024-08-06":
+        prices = 0.0025, 0.01
+    elif model_id == "gpt-4-1106-preview":
         prices = 0.01, 0.03
     elif model_id == "gpt-3.5-turbo-1106":
         prices = 0.001, 0.002
@@ -283,6 +285,7 @@ _GPT_4_MODELS = [
     "gpt-4-32k-0314",
     "gpt-4-32k-0613",
     "gpt-4-1106-preview",
+    "gpt-4o-2024-08-06",
 ]
 _GPT_TURBO_MODELS = [
     "gpt-3.5-turbo",
