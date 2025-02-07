@@ -1,0 +1,168 @@
+[2025-02-07 00:31:42,629][__main__][INFO] - Using column complete_judge
+[2025-02-07 00:31:42,630][__main__][INFO] - Using file exp/bon_comparison_gpt4o_limit4/bo4_model_gpt-4o-2024-08-06/debate_sim/gpt-4o-2024-08-06/data0_judgement.csv
+[2025-02-07 00:31:42,630][__main__][INFO] - Processing 40 rows
+[2025-02-07 00:31:51,144][core.agents.judge_quality][INFO] - Completed 7
+[2025-02-07 00:31:51,144][core.agents.judge_quality][INFO] - Total cost: 0.006
+[2025-02-07 00:31:52,686][core.agents.judge_quality][INFO] - Completed 12
+[2025-02-07 00:31:52,686][core.agents.judge_quality][INFO] - Total cost: 0.012
+[2025-02-07 00:31:52,696][core.agents.judge_quality][INFO] - Completed 6
+[2025-02-07 00:31:52,696][core.agents.judge_quality][INFO] - Total cost: 0.019
+[2025-02-07 00:31:53,709][core.agents.judge_quality][INFO] - Completed 10
+[2025-02-07 00:31:53,709][core.agents.judge_quality][INFO] - Total cost: 0.026
+[2025-02-07 00:31:53,711][core.agents.judge_quality][INFO] - Completed 5
+[2025-02-07 00:31:53,711][core.agents.judge_quality][INFO] - Total cost: 0.033
+[2025-02-07 00:31:53,792][core.agents.judge_quality][INFO] - Completed 11
+[2025-02-07 00:31:53,792][core.agents.judge_quality][INFO] - Total cost: 0.040
+[2025-02-07 00:31:53,993][core.agents.judge_quality][INFO] - Completed 4
+[2025-02-07 00:31:53,993][core.agents.judge_quality][INFO] - Total cost: 0.046
+[2025-02-07 00:31:53,997][core.agents.judge_quality][INFO] - Completed 8
+[2025-02-07 00:31:53,997][core.agents.judge_quality][INFO] - Total cost: 0.053
+[2025-02-07 00:31:55,831][core.agents.judge_quality][INFO] - Completed 0
+[2025-02-07 00:31:55,832][core.agents.judge_quality][INFO] - Total cost: 0.060
+[2025-02-07 00:31:55,835][core.agents.judge_quality][INFO] - Completed 9
+[2025-02-07 00:31:55,835][core.agents.judge_quality][INFO] - Total cost: 0.067
+[2025-02-07 00:31:56,522][core.agents.judge_quality][INFO] - Completed 2
+[2025-02-07 00:31:56,522][core.agents.judge_quality][INFO] - Total cost: 0.075
+[2025-02-07 00:31:56,976][core.agents.judge_quality][INFO] - Completed 1
+[2025-02-07 00:31:56,976][core.agents.judge_quality][INFO] - Total cost: 0.083
+[2025-02-07 00:31:57,160][core.agents.judge_quality][INFO] - Completed 22
+[2025-02-07 00:31:57,160][core.agents.judge_quality][INFO] - Total cost: 0.090
+[2025-02-07 00:31:57,168][core.agents.judge_quality][INFO] - Completed 3
+[2025-02-07 00:31:57,169][core.agents.judge_quality][INFO] - Total cost: 0.097
+[2025-02-07 00:31:57,952][core.agents.judge_quality][INFO] - Completed 34
+[2025-02-07 00:31:57,952][core.agents.judge_quality][INFO] - Total cost: 0.103
+[2025-02-07 00:32:02,437][core.agents.judge_quality][INFO] - Completed 39
+[2025-02-07 00:32:02,439][core.agents.judge_quality][INFO] - Total cost: 0.110
+[2025-02-07 00:32:07,851][core.agents.judge_quality][INFO] - Completed 15
+[2025-02-07 00:32:07,852][core.agents.judge_quality][INFO] - Total cost: 0.117
+[2025-02-07 00:32:09,164][core.agents.judge_quality][INFO] - Completed 19
+[2025-02-07 00:32:09,164][core.agents.judge_quality][INFO] - Total cost: 0.124
+[2025-02-07 00:32:10,293][core.agents.judge_quality][INFO] - Completed 29
+[2025-02-07 00:32:10,294][core.agents.judge_quality][INFO] - Total cost: 0.131
+[2025-02-07 00:32:12,849][core.agents.judge_quality][INFO] - Completed 35
+[2025-02-07 00:32:12,849][core.agents.judge_quality][INFO] - Total cost: 0.138
+[2025-02-07 00:32:18,418][core.agents.judge_quality][INFO] - Completed 36
+[2025-02-07 00:32:18,419][core.agents.judge_quality][INFO] - Total cost: 0.145
+[2025-02-07 00:32:18,587][core.agents.judge_quality][INFO] - Completed 38
+[2025-02-07 00:32:18,587][core.agents.judge_quality][INFO] - Total cost: 0.152
+[2025-02-07 00:32:23,090][core.agents.judge_quality][INFO] - Completed 13
+[2025-02-07 00:32:23,090][core.agents.judge_quality][INFO] - Total cost: 0.160
+[2025-02-07 00:32:29,342][core.agents.judge_quality][INFO] - Completed 20
+[2025-02-07 00:32:29,342][core.agents.judge_quality][INFO] - Total cost: 0.167
+[2025-02-07 00:32:30,879][core.agents.judge_quality][INFO] - Completed 21
+[2025-02-07 00:32:30,879][core.agents.judge_quality][INFO] - Total cost: 0.173
+[2025-02-07 00:32:31,749][core.agents.judge_quality][INFO] - Completed 17
+[2025-02-07 00:32:31,749][core.agents.judge_quality][INFO] - Total cost: 0.179
+[2025-02-07 00:32:36,841][core.agents.judge_quality][INFO] - Completed 27
+[2025-02-07 00:32:36,842][core.agents.judge_quality][INFO] - Total cost: 0.185
+[2025-02-07 00:32:37,531][core.agents.judge_quality][INFO] - Completed 26
+[2025-02-07 00:32:37,531][core.agents.judge_quality][INFO] - Total cost: 0.190
+[2025-02-07 00:32:39,476][core.agents.judge_quality][INFO] - Completed 25
+[2025-02-07 00:32:39,477][core.agents.judge_quality][INFO] - Total cost: 0.198
+[2025-02-07 00:32:46,980][core.agents.judge_quality][INFO] - Completed 30
+[2025-02-07 00:32:46,980][core.agents.judge_quality][INFO] - Total cost: 0.205
+[2025-02-07 00:32:48,325][core.agents.judge_quality][INFO] - Completed 23
+[2025-02-07 00:32:48,325][core.agents.judge_quality][INFO] - Total cost: 0.212
+[2025-02-07 00:32:51,039][core.agents.judge_quality][INFO] - Completed 31
+[2025-02-07 00:32:51,039][core.agents.judge_quality][INFO] - Total cost: 0.219
+[2025-02-07 00:32:54,841][core.agents.judge_quality][INFO] - Completed 32
+[2025-02-07 00:32:54,841][core.agents.judge_quality][INFO] - Total cost: 0.226
+[2025-02-07 00:32:55,827][core.agents.judge_quality][INFO] - Completed 16
+[2025-02-07 00:32:55,828][core.agents.judge_quality][INFO] - Total cost: 0.233
+[2025-02-07 00:33:08,775][core.agents.judge_quality][INFO] - Completed 33
+[2025-02-07 00:33:08,775][core.agents.judge_quality][INFO] - Total cost: 0.239
+[2025-02-07 00:33:10,198][core.agents.judge_quality][INFO] - Completed 24
+[2025-02-07 00:33:10,198][core.agents.judge_quality][INFO] - Total cost: 0.245
+[2025-02-07 00:33:10,504][core.agents.judge_quality][INFO] - Completed 18
+[2025-02-07 00:33:10,504][core.agents.judge_quality][INFO] - Total cost: 0.252
+[2025-02-07 00:33:14,904][core.agents.judge_quality][INFO] - Completed 37
+[2025-02-07 00:33:14,904][core.agents.judge_quality][INFO] - Total cost: 0.259
+[2025-02-07 00:33:20,830][core.agents.judge_quality][INFO] - Completed 28
+[2025-02-07 00:33:20,830][core.agents.judge_quality][INFO] - Total cost: 0.266
+[2025-02-07 00:33:21,690][core.agents.judge_quality][INFO] - Completed 14
+[2025-02-07 00:33:21,690][core.agents.judge_quality][INFO] - Total cost: 0.273
+[2025-02-07 00:33:21,692][__main__][INFO] - Processed 40 rows. 40 were complete.
+[2025-02-07 00:33:21,788][__main__][INFO] - Using column complete_judge
+[2025-02-07 00:33:21,788][__main__][INFO] - Using file exp/bon_comparison_gpt4o_limit4/bo4_model_gpt-4o-2024-08-06/debate_sim/gpt-4o-2024-08-06/data0_swap_judgement.csv
+[2025-02-07 00:33:21,788][__main__][INFO] - Processing 40 rows
+[2025-02-07 00:33:30,880][core.agents.judge_quality][INFO] - Completed 0
+[2025-02-07 00:33:30,881][core.agents.judge_quality][INFO] - Total cost: 0.280
+[2025-02-07 00:33:31,076][core.agents.judge_quality][INFO] - Completed 2
+[2025-02-07 00:33:31,076][core.agents.judge_quality][INFO] - Total cost: 0.288
+[2025-02-07 00:33:33,241][core.agents.judge_quality][INFO] - Completed 1
+[2025-02-07 00:33:33,241][core.agents.judge_quality][INFO] - Total cost: 0.296
+[2025-02-07 00:33:33,545][core.agents.judge_quality][INFO] - Completed 19
+[2025-02-07 00:33:33,546][core.agents.judge_quality][INFO] - Total cost: 0.302
+[2025-02-07 00:33:33,552][core.agents.judge_quality][INFO] - Completed 22
+[2025-02-07 00:33:33,552][core.agents.judge_quality][INFO] - Total cost: 0.309
+[2025-02-07 00:33:34,418][core.agents.judge_quality][INFO] - Completed 3
+[2025-02-07 00:33:34,418][core.agents.judge_quality][INFO] - Total cost: 0.316
+[2025-02-07 00:33:40,402][core.agents.judge_quality][INFO] - Completed 39
+[2025-02-07 00:33:40,404][core.agents.judge_quality][INFO] - Total cost: 0.322
+[2025-02-07 00:33:42,040][core.agents.judge_quality][INFO] - Completed 29
+[2025-02-07 00:33:42,040][core.agents.judge_quality][INFO] - Total cost: 0.329
+[2025-02-07 00:33:45,730][core.agents.judge_quality][INFO] - Completed 20
+[2025-02-07 00:33:45,730][core.agents.judge_quality][INFO] - Total cost: 0.336
+[2025-02-07 00:33:46,550][core.agents.judge_quality][INFO] - Completed 21
+[2025-02-07 00:33:46,550][core.agents.judge_quality][INFO] - Total cost: 0.342
+[2025-02-07 00:33:55,458][core.agents.judge_quality][INFO] - Completed 34
+[2025-02-07 00:33:55,459][core.agents.judge_quality][INFO] - Total cost: 0.348
+[2025-02-07 00:33:56,684][core.agents.judge_quality][INFO] - Completed 27
+[2025-02-07 00:33:56,685][core.agents.judge_quality][INFO] - Total cost: 0.355
+[2025-02-07 00:33:59,348][core.agents.judge_quality][INFO] - Completed 4
+[2025-02-07 00:33:59,348][core.agents.judge_quality][INFO] - Total cost: 0.360
+[2025-02-07 00:33:59,756][core.agents.judge_quality][INFO] - Completed 15
+[2025-02-07 00:33:59,757][core.agents.judge_quality][INFO] - Total cost: 0.368
+[2025-02-07 00:34:03,138][core.agents.judge_quality][INFO] - Completed 38
+[2025-02-07 00:34:03,138][core.agents.judge_quality][INFO] - Total cost: 0.374
+[2025-02-07 00:34:07,147][core.agents.judge_quality][INFO] - Completed 5
+[2025-02-07 00:34:07,147][core.agents.judge_quality][INFO] - Total cost: 0.382
+[2025-02-07 00:34:09,894][core.agents.judge_quality][INFO] - Completed 35
+[2025-02-07 00:34:09,895][core.agents.judge_quality][INFO] - Total cost: 0.388
+[2025-02-07 00:34:12,556][core.agents.judge_quality][INFO] - Completed 6
+[2025-02-07 00:34:12,556][core.agents.judge_quality][INFO] - Total cost: 0.395
+[2025-02-07 00:34:15,016][core.agents.judge_quality][INFO] - Completed 7
+[2025-02-07 00:34:15,016][core.agents.judge_quality][INFO] - Total cost: 0.401
+[2025-02-07 00:34:20,544][core.agents.judge_quality][INFO] - Completed 10
+[2025-02-07 00:34:20,545][core.agents.judge_quality][INFO] - Total cost: 0.408
+[2025-02-07 00:34:25,049][core.agents.judge_quality][INFO] - Completed 13
+[2025-02-07 00:34:25,050][core.agents.judge_quality][INFO] - Total cost: 0.414
+[2025-02-07 00:34:29,250][core.agents.judge_quality][INFO] - Completed 11
+[2025-02-07 00:34:29,251][core.agents.judge_quality][INFO] - Total cost: 0.421
+[2025-02-07 00:34:29,555][core.agents.judge_quality][INFO] - Completed 17
+[2025-02-07 00:34:29,555][core.agents.judge_quality][INFO] - Total cost: 0.428
+[2025-02-07 00:34:34,164][core.agents.judge_quality][INFO] - Completed 36
+[2025-02-07 00:34:34,165][core.agents.judge_quality][INFO] - Total cost: 0.435
+[2025-02-07 00:34:36,732][core.agents.judge_quality][INFO] - Completed 30
+[2025-02-07 00:34:36,732][core.agents.judge_quality][INFO] - Total cost: 0.442
+[2025-02-07 00:34:38,275][core.agents.judge_quality][INFO] - Completed 23
+[2025-02-07 00:34:38,276][core.agents.judge_quality][INFO] - Total cost: 0.450
+[2025-02-07 00:34:38,877][core.agents.judge_quality][INFO] - Completed 31
+[2025-02-07 00:34:38,877][core.agents.judge_quality][INFO] - Total cost: 0.456
+[2025-02-07 00:34:47,884][core.agents.judge_quality][INFO] - Completed 26
+[2025-02-07 00:34:47,885][core.agents.judge_quality][INFO] - Total cost: 0.462
+[2025-02-07 00:34:49,030][core.agents.judge_quality][INFO] - Completed 12
+[2025-02-07 00:34:49,030][core.agents.judge_quality][INFO] - Total cost: 0.468
+[2025-02-07 00:34:52,187][core.agents.judge_quality][INFO] - Completed 25
+[2025-02-07 00:34:52,188][core.agents.judge_quality][INFO] - Total cost: 0.476
+[2025-02-07 00:34:53,317][core.agents.judge_quality][INFO] - Completed 32
+[2025-02-07 00:34:53,318][core.agents.judge_quality][INFO] - Total cost: 0.483
+[2025-02-07 00:35:00,309][core.agents.judge_quality][INFO] - Completed 33
+[2025-02-07 00:35:00,309][core.agents.judge_quality][INFO] - Total cost: 0.489
+[2025-02-07 00:35:01,904][core.agents.judge_quality][INFO] - Completed 16
+[2025-02-07 00:35:01,904][core.agents.judge_quality][INFO] - Total cost: 0.496
+[2025-02-07 00:35:05,206][core.agents.judge_quality][INFO] - Completed 18
+[2025-02-07 00:35:05,206][core.agents.judge_quality][INFO] - Total cost: 0.503
+[2025-02-07 00:35:10,008][core.agents.judge_quality][INFO] - Completed 8
+[2025-02-07 00:35:10,009][core.agents.judge_quality][INFO] - Total cost: 0.511
+[2025-02-07 00:35:18,612][core.agents.judge_quality][INFO] - Completed 28
+[2025-02-07 00:35:18,613][core.agents.judge_quality][INFO] - Total cost: 0.517
+[2025-02-07 00:35:20,259][core.agents.judge_quality][INFO] - Completed 9
+[2025-02-07 00:35:20,259][core.agents.judge_quality][INFO] - Total cost: 0.525
+[2025-02-07 00:35:26,797][core.agents.judge_quality][INFO] - Completed 37
+[2025-02-07 00:35:26,797][core.agents.judge_quality][INFO] - Total cost: 0.533
+[2025-02-07 00:35:28,510][core.agents.judge_quality][INFO] - Completed 24
+[2025-02-07 00:35:28,510][core.agents.judge_quality][INFO] - Total cost: 0.541
+[2025-02-07 00:35:32,534][core.agents.judge_quality][INFO] - Completed 14
+[2025-02-07 00:35:32,534][core.agents.judge_quality][INFO] - Total cost: 0.549
+[2025-02-07 00:35:32,536][__main__][INFO] - Processed 40 rows. 40 were complete.

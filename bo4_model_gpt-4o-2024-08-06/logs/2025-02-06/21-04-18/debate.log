@@ -1,0 +1,365 @@
+[2025-02-06 21:04:19,091][core.agents.judge_quality][INFO] - Using logprobs: True
+[2025-02-06 21:04:19,091][core.agents.judge_quality][INFO] - Using logprobs: True
+[2025-02-06 21:04:19,091][core.agents.debater_base][INFO] - Using BoN: 4 correct
+[2025-02-06 21:04:19,091][core.agents.debater_base][INFO] - Using BoN: 4 incorrect
+[2025-02-06 21:04:19,091][core.create_agents][INFO] - {'model': 'gpt-4o-2024-08-06', 'temperature': 0.8, 'top_p': 1.0, 'max_tokens': 1000, 'max_words': 150, 'min_words': 70, 'num_candidates_per_completion': 3, 'timeout': 120}
+[2025-02-06 21:04:19,091][core.create_agents][INFO] - {'model': 'gpt-4o-2024-08-06', 'temperature': 0.8, 'top_p': 1.0, 'max_tokens': 1000, 'max_words': 150, 'min_words': 70, 'num_candidates_per_completion': 3, 'timeout': 120}
+[2025-02-06 21:04:19,091][__main__][INFO] - Running debates with 20.0 threads
+[2025-02-06 21:04:19,100][__main__][INFO] - Processing exp/bon_comparison_gpt4o_limit4/bo4_model_gpt-4o-2024-08-06/debate_sim/data0.csv
+[2025-02-06 21:04:19,100][__main__][INFO] - Time is 2025-02-06 21:04:19.100539
+[2025-02-06 21:04:19,100][__main__][INFO] - Processing 40 rows
+[2025-02-06 21:04:37,091][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 21:04:56,578][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 21:05:38,321][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 21:05:39,172][core.rollouts.quality_sim][INFO] - Step 0 completed in 80.070 (index 4)
+[2025-02-06 21:06:21,149][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 21:07:09,690][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 21:07:10,696][core.rollouts.quality_sim][INFO] - Step 1 completed in 91.523 (index 4)
+[2025-02-06 21:07:45,506][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 21:08:41,515][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 21:08:42,739][core.rollouts.quality_sim][INFO] - Step 2 completed in 92.042 (index 4)
+[2025-02-06 21:08:42,739][core.rollouts.quality_sim][INFO] - Total cost: 1.027
+[2025-02-06 21:08:42,739][core.rollouts.quality_sim][INFO] - Completed: 4
+[2025-02-06 21:09:20,375][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 21:10:07,943][core.llm_api.llm][INFO] - `is_valid` success rate: 75.00%
+[2025-02-06 21:10:09,015][core.rollouts.quality_sim][INFO] - Step 0 completed in 86.274 (index 20)
+[2025-02-06 21:10:46,853][core.llm_api.llm][INFO] - `is_valid` success rate: 75.00%
+[2025-02-06 21:11:33,717][core.rollouts.quality_sim][INFO] - Step 1 completed in 84.701 (index 20)
+[2025-02-06 21:13:06,183][core.rollouts.quality_sim][INFO] - Step 0 completed in 527.081 (index 3)
+[2025-02-06 21:14:01,328][core.llm_api.llm][INFO] - `is_valid` success rate: 75.00%
+[2025-02-06 21:15:26,922][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 21:15:27,969][core.rollouts.quality_sim][INFO] - Step 2 completed in 234.251 (index 20)
+[2025-02-06 21:15:27,970][core.rollouts.quality_sim][INFO] - Total cost: 2.493
+[2025-02-06 21:15:27,970][core.rollouts.quality_sim][INFO] - Completed: 20
+[2025-02-06 21:16:22,100][core.llm_api.llm][INFO] - `is_valid` success rate: 75.00%
+[2025-02-06 21:16:23,202][core.rollouts.quality_sim][INFO] - Step 1 completed in 197.018 (index 3)
+[2025-02-06 21:17:56,685][core.rollouts.quality_sim][INFO] - Step 2 completed in 93.483 (index 3)
+[2025-02-06 21:17:56,686][core.rollouts.quality_sim][INFO] - Total cost: 3.027
+[2025-02-06 21:17:56,686][core.rollouts.quality_sim][INFO] - Completed: 3
+[2025-02-06 21:18:56,406][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 21:19:41,820][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 21:19:46,831][core.rollouts.quality_sim][INFO] - Step 0 completed in 927.728 (index 13)
+[2025-02-06 21:20:22,888][core.llm_api.llm][INFO] - `is_valid` success rate: 75.00%
+[2025-02-06 21:21:34,932][core.llm_api.llm][INFO] - `is_valid` success rate: 66.67%
+[2025-02-06 21:21:36,025][core.rollouts.quality_sim][INFO] - Step 0 completed in 1036.923 (index 1)
+[2025-02-06 21:22:56,158][core.llm_api.llm][INFO] - `is_valid` success rate: 75.00%
+[2025-02-06 21:23:53,624][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 21:24:46,975][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 21:24:47,867][core.rollouts.quality_sim][INFO] - Step 0 completed in 1228.762 (index 18)
+[2025-02-06 21:25:33,722][core.rollouts.quality_sim][INFO] - Step 0 completed in 1274.618 (index 16)
+[2025-02-06 21:26:13,508][core.llm_api.llm][INFO] - `is_valid` success rate: 66.67%
+[2025-02-06 21:27:04,504][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 21:27:05,480][core.rollouts.quality_sim][INFO] - Step 1 completed in 438.648 (index 13)
+[2025-02-06 21:27:59,696][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 21:28:42,894][core.llm_api.llm][INFO] - `is_valid` success rate: 50.00%
+[2025-02-06 21:28:44,155][core.rollouts.quality_sim][INFO] - Step 0 completed in 1465.052 (index 12)
+[2025-02-06 21:29:40,050][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 21:29:40,992][core.rollouts.quality_sim][INFO] - Step 0 completed in 1521.887 (index 19)
+[2025-02-06 21:30:26,234][core.llm_api.llm][INFO] - `is_valid` success rate: 75.00%
+[2025-02-06 21:30:27,154][core.rollouts.quality_sim][INFO] - Step 0 completed in 1568.052 (index 0)
+[2025-02-06 21:32:02,123][core.llm_api.llm][INFO] - `is_valid` success rate: 41.67%
+[2025-02-06 21:32:53,179][core.llm_api.llm][INFO] - `is_valid` success rate: 58.33%
+[2025-02-06 21:32:54,223][core.rollouts.quality_sim][INFO] - Step 0 completed in 1715.120 (index 6)
+[2025-02-06 21:33:47,659][core.llm_api.llm][INFO] - `is_valid` success rate: 75.00%
+[2025-02-06 21:33:48,777][core.rollouts.quality_sim][INFO] - Step 1 completed in 732.751 (index 1)
+[2025-02-06 21:34:39,475][core.llm_api.llm][INFO] - `is_valid` success rate: 66.67%
+[2025-02-06 21:35:27,621][core.rollouts.quality_sim][INFO] - Step 0 completed in 1868.519 (index 5)
+[2025-02-06 21:36:23,002][core.llm_api.llm][INFO] - `is_valid` success rate: 75.00%
+[2025-02-06 21:37:17,174][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 21:38:56,053][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 21:38:57,420][core.rollouts.quality_sim][INFO] - Step 1 completed in 556.427 (index 19)
+[2025-02-06 21:40:02,453][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 21:41:08,916][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 21:41:10,162][core.rollouts.quality_sim][INFO] - Step 2 completed in 844.681 (index 13)
+[2025-02-06 21:41:10,162][core.rollouts.quality_sim][INFO] - Total cost: 8.587
+[2025-02-06 21:41:10,163][core.rollouts.quality_sim][INFO] - Completed: 13
+[2025-02-06 21:41:27,341][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 21:42:13,010][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 21:42:14,218][core.rollouts.quality_sim][INFO] - Step 0 completed in 64.054 (index 23)
+[2025-02-06 21:44:00,962][core.rollouts.quality_sim][INFO] - Step 1 completed in 106.743 (index 23)
+[2025-02-06 21:45:37,095][core.rollouts.quality_sim][INFO] - Step 2 completed in 96.132 (index 23)
+[2025-02-06 21:45:37,096][core.rollouts.quality_sim][INFO] - Total cost: 9.889
+[2025-02-06 21:45:37,096][core.rollouts.quality_sim][INFO] - Completed: 23
+[2025-02-06 21:46:40,282][core.llm_api.llm][INFO] - `is_valid` success rate: 66.67%
+[2025-02-06 21:47:22,062][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 21:47:22,976][core.rollouts.quality_sim][INFO] - Step 0 completed in 105.879 (index 24)
+[2025-02-06 21:48:13,467][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 21:48:14,915][core.rollouts.quality_sim][INFO] - Step 1 completed in 1067.760 (index 0)
+[2025-02-06 21:50:16,084][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 21:51:08,986][core.rollouts.quality_sim][INFO] - Step 1 completed in 1581.119 (index 18)
+[2025-02-06 21:51:40,830][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 21:52:33,669][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 21:52:38,273][core.rollouts.quality_sim][INFO] - Step 1 completed in 1624.550 (index 16)
+[2025-02-06 21:53:35,012][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 21:53:35,941][core.rollouts.quality_sim][INFO] - Step 0 completed in 2139.254 (index 22)
+[2025-02-06 21:54:24,164][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 21:55:18,949][core.llm_api.llm][INFO] - `is_valid` success rate: 75.00%
+[2025-02-06 21:55:19,882][core.rollouts.quality_sim][INFO] - Step 1 completed in 1595.726 (index 12)
+[2025-02-06 21:56:06,202][core.llm_api.llm][INFO] - `is_valid` success rate: 8.33%
+[2025-02-06 21:56:06,203][core.llm_api.llm][INFO] - Padded 1 valid responses with 3 invalid responses to get 4 total responses
+[2025-02-06 21:56:46,556][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 21:56:47,617][core.rollouts.quality_sim][INFO] - Step 1 completed in 1433.394 (index 6)
+[2025-02-06 21:57:49,078][core.llm_api.llm][INFO] - `is_valid` success rate: 66.67%
+[2025-02-06 21:57:50,127][core.rollouts.quality_sim][INFO] - Step 0 completed in 3211.024 (index 11)
+[2025-02-06 21:58:32,593][core.llm_api.llm][INFO] - `is_valid` success rate: 75.00%
+[2025-02-06 21:59:25,999][core.llm_api.llm][INFO] - `is_valid` success rate: 50.00%
+[2025-02-06 22:00:22,884][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 22:00:26,458][core.rollouts.quality_sim][INFO] - Step 0 completed in 3367.356 (index 2)
+[2025-02-06 22:02:17,854][core.rollouts.quality_sim][INFO] - Step 1 completed in 894.878 (index 24)
+[2025-02-06 22:03:49,322][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 22:03:50,249][core.rollouts.quality_sim][INFO] - Step 1 completed in 1702.627 (index 5)
+[2025-02-06 22:04:42,149][core.rollouts.quality_sim][INFO] - Step 2 completed in 1853.372 (index 1)
+[2025-02-06 22:04:42,150][core.rollouts.quality_sim][INFO] - Total cost: 14.658
+[2025-02-06 22:04:42,150][core.rollouts.quality_sim][INFO] - Completed: 1
+[2025-02-06 22:05:32,645][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 22:06:34,597][core.llm_api.llm][INFO] - `is_valid` success rate: 41.67%
+[2025-02-06 22:06:35,563][core.rollouts.quality_sim][INFO] - Step 0 completed in 113.410 (index 25)
+[2025-02-06 22:07:12,118][core.llm_api.llm][INFO] - `is_valid` success rate: 50.00%
+[2025-02-06 22:07:50,072][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 22:07:51,183][core.rollouts.quality_sim][INFO] - Step 1 completed in 75.620 (index 25)
+[2025-02-06 22:08:43,154][core.llm_api.llm][INFO] - `is_valid` success rate: 75.00%
+[2025-02-06 22:09:34,210][core.llm_api.llm][INFO] - `is_valid` success rate: 50.00%
+[2025-02-06 22:09:35,355][core.rollouts.quality_sim][INFO] - Step 2 completed in 104.171 (index 25)
+[2025-02-06 22:09:35,355][core.rollouts.quality_sim][INFO] - Total cost: 15.471
+[2025-02-06 22:09:35,355][core.rollouts.quality_sim][INFO] - Completed: 25
+[2025-02-06 22:10:37,596][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 22:11:24,395][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 22:11:25,319][core.rollouts.quality_sim][INFO] - Step 0 completed in 109.963 (index 26)
+[2025-02-06 22:13:03,313][core.rollouts.quality_sim][INFO] - Step 2 completed in 1314.325 (index 18)
+[2025-02-06 22:13:03,314][core.rollouts.quality_sim][INFO] - Total cost: 16.425
+[2025-02-06 22:13:03,314][core.rollouts.quality_sim][INFO] - Completed: 18
+[2025-02-06 22:13:44,685][core.llm_api.llm][INFO] - `is_valid` success rate: 58.33%
+[2025-02-06 22:14:37,319][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 22:14:38,328][core.rollouts.quality_sim][INFO] - Step 0 completed in 95.013 (index 27)
+[2025-02-06 22:15:09,578][core.llm_api.llm][INFO] - `is_valid` success rate: 33.33%
+[2025-02-06 22:15:52,579][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 22:15:53,513][core.rollouts.quality_sim][INFO] - Step 1 completed in 75.184 (index 27)
+[2025-02-06 22:16:54,851][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 22:17:30,071][core.rollouts.quality_sim][INFO] - Step 2 completed in 96.558 (index 27)
+[2025-02-06 22:17:30,072][core.rollouts.quality_sim][INFO] - Total cost: 17.106
+[2025-02-06 22:17:30,072][core.rollouts.quality_sim][INFO] - Completed: 27
+[2025-02-06 22:18:24,552][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 22:19:19,361][core.rollouts.quality_sim][INFO] - Step 0 completed in 109.289 (index 28)
+[2025-02-06 22:21:54,764][core.rollouts.quality_sim][INFO] - Step 1 completed in 1698.823 (index 22)
+[2025-02-06 22:22:51,414][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 22:23:44,356][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 22:23:45,394][core.rollouts.quality_sim][INFO] - Step 2 completed in 1617.777 (index 6)
+[2025-02-06 22:23:45,396][core.rollouts.quality_sim][INFO] - Total cost: 18.857
+[2025-02-06 22:23:45,396][core.rollouts.quality_sim][INFO] - Completed: 6
+[2025-02-06 22:24:29,003][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 22:25:27,574][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 22:25:28,574][core.rollouts.quality_sim][INFO] - Step 0 completed in 103.177 (index 29)
+[2025-02-06 22:26:19,600][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 22:27:25,027][core.rollouts.quality_sim][INFO] - Step 1 completed in 959.708 (index 26)
+[2025-02-06 22:28:02,614][core.llm_api.llm][INFO] - `is_valid` success rate: 75.00%
+[2025-02-06 22:28:55,154][core.rollouts.quality_sim][INFO] - Step 2 completed in 2440.239 (index 0)
+[2025-02-06 22:28:55,156][core.rollouts.quality_sim][INFO] - Total cost: 20.273
+[2025-02-06 22:28:55,156][core.rollouts.quality_sim][INFO] - Completed: 0
+[2025-02-06 22:30:02,998][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 22:30:51,745][core.llm_api.llm][INFO] - `is_valid` success rate: 75.00%
+[2025-02-06 22:30:52,729][core.rollouts.quality_sim][INFO] - Step 0 completed in 117.572 (index 30)
+[2025-02-06 22:31:13,347][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 22:32:29,751][core.rollouts.quality_sim][INFO] - Step 1 completed in 97.021 (index 30)
+[2025-02-06 22:32:57,610][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 22:33:55,712][core.rollouts.quality_sim][INFO] - Step 2 completed in 85.959 (index 30)
+[2025-02-06 22:33:55,712][core.rollouts.quality_sim][INFO] - Total cost: 21.406
+[2025-02-06 22:33:55,713][core.rollouts.quality_sim][INFO] - Completed: 30
+[2025-02-06 22:35:15,117][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 22:35:19,818][core.rollouts.quality_sim][INFO] - Step 0 completed in 84.105 (index 31)
+[2025-02-06 22:36:52,501][core.rollouts.quality_sim][INFO] - Step 1 completed in 92.683 (index 31)
+[2025-02-06 22:37:56,392][core.llm_api.llm][INFO] - `is_valid` success rate: 58.33%
+[2025-02-06 22:38:16,257][core.rollouts.quality_sim][INFO] - Step 2 completed in 83.755 (index 31)
+[2025-02-06 22:38:16,258][core.rollouts.quality_sim][INFO] - Total cost: 22.303
+[2025-02-06 22:38:16,258][core.rollouts.quality_sim][INFO] - Completed: 31
+[2025-02-06 22:40:12,074][core.llm_api.llm][INFO] - `is_valid` success rate: 75.00%
+[2025-02-06 22:40:12,962][core.rollouts.quality_sim][INFO] - Step 0 completed in 5753.859 (index 9)
+[2025-02-06 22:41:52,835][core.rollouts.quality_sim][INFO] - Step 2 completed in 3775.414 (index 19)
+[2025-02-06 22:41:52,836][core.rollouts.quality_sim][INFO] - Total cost: 23.295
+[2025-02-06 22:41:52,836][core.rollouts.quality_sim][INFO] - Completed: 19
+[2025-02-06 22:43:46,091][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 22:44:41,296][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 22:44:42,265][core.rollouts.quality_sim][INFO] - Step 1 completed in 1153.690 (index 29)
+[2025-02-06 22:45:36,314][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 22:45:37,602][core.rollouts.quality_sim][INFO] - Step 2 completed in 3179.329 (index 16)
+[2025-02-06 22:45:37,603][core.rollouts.quality_sim][INFO] - Total cost: 24.279
+[2025-02-06 22:45:37,603][core.rollouts.quality_sim][INFO] - Completed: 16
+[2025-02-06 22:46:22,043][core.llm_api.llm][INFO] - `is_valid` success rate: 25.00%
+[2025-02-06 22:46:22,045][core.llm_api.llm][INFO] - Padded 3 valid responses with 1 invalid responses to get 4 total responses
+[2025-02-06 22:46:57,477][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 22:46:58,399][core.rollouts.quality_sim][INFO] - Step 0 completed in 80.795 (index 34)
+[2025-02-06 22:47:43,250][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 22:48:35,161][core.rollouts.quality_sim][INFO] - Step 1 completed in 96.761 (index 34)
+[2025-02-06 22:49:14,902][core.llm_api.llm][INFO] - `is_valid` success rate: 75.00%
+[2025-02-06 22:49:59,576][core.rollouts.quality_sim][INFO] - Step 2 completed in 84.413 (index 34)
+[2025-02-06 22:49:59,577][core.rollouts.quality_sim][INFO] - Total cost: 24.995
+[2025-02-06 22:49:59,577][core.rollouts.quality_sim][INFO] - Completed: 34
+[2025-02-06 22:50:54,024][core.llm_api.llm][INFO] - `is_valid` success rate: 58.33%
+[2025-02-06 22:51:38,770][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 22:51:39,756][core.rollouts.quality_sim][INFO] - Step 0 completed in 100.178 (index 35)
+[2025-02-06 22:52:40,823][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 22:53:30,595][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 22:53:31,486][core.rollouts.quality_sim][INFO] - Step 1 completed in 111.729 (index 35)
+[2025-02-06 22:54:14,767][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 22:55:14,146][core.rollouts.quality_sim][INFO] - Step 2 completed in 102.659 (index 35)
+[2025-02-06 22:55:14,148][core.rollouts.quality_sim][INFO] - Total cost: 26.282
+[2025-02-06 22:55:14,148][core.rollouts.quality_sim][INFO] - Completed: 35
+[2025-02-06 22:56:13,833][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 22:57:01,024][core.rollouts.quality_sim][INFO] - Step 0 completed in 106.875 (index 36)
+[2025-02-06 22:58:06,768][core.llm_api.llm][INFO] - `is_valid` success rate: 66.67%
+[2025-02-06 22:58:07,737][core.rollouts.quality_sim][INFO] - Step 1 completed in 2328.375 (index 28)
+[2025-02-06 22:59:37,696][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 22:59:40,361][core.rollouts.quality_sim][INFO] - Step 2 completed in 3860.478 (index 12)
+[2025-02-06 22:59:40,362][core.rollouts.quality_sim][INFO] - Total cost: 27.475
+[2025-02-06 22:59:40,362][core.rollouts.quality_sim][INFO] - Completed: 12
+[2025-02-06 23:02:01,378][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 23:02:04,535][core.rollouts.quality_sim][INFO] - Step 0 completed in 144.172 (index 37)
+[2025-02-06 23:02:08,535][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 23:03:12,024][core.llm_api.llm][INFO] - `is_valid` success rate: 75.00%
+[2025-02-06 23:03:12,986][core.rollouts.quality_sim][INFO] - Step 1 completed in 3766.528 (index 2)
+[2025-02-06 23:04:56,462][core.rollouts.quality_sim][INFO] - Step 1 completed in 171.927 (index 37)
+[2025-02-06 23:06:04,284][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 23:06:53,442][core.llm_api.llm][INFO] - `is_valid` success rate: 50.00%
+[2025-02-06 23:08:04,971][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 23:08:10,166][core.rollouts.quality_sim][INFO] - Step 1 completed in 4220.038 (index 11)
+[2025-02-06 23:08:34,918][core.llm_api.llm][INFO] - `is_valid` success rate: 58.33%
+[2025-02-06 23:09:47,425][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 23:09:48,846][core.rollouts.quality_sim][INFO] - Step 2 completed in 4050.990 (index 24)
+[2025-02-06 23:09:48,847][core.rollouts.quality_sim][INFO] - Total cost: 30.002
+[2025-02-06 23:09:48,847][core.rollouts.quality_sim][INFO] - Completed: 24
+[2025-02-06 23:10:27,254][core.llm_api.llm][INFO] - `is_valid` success rate: 75.00%
+[2025-02-06 23:11:12,432][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 23:11:14,362][core.rollouts.quality_sim][INFO] - Step 0 completed in 7615.259 (index 8)
+[2025-02-06 23:12:06,991][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 23:12:07,897][core.rollouts.quality_sim][INFO] - Step 0 completed in 7668.794 (index 14)
+[2025-02-06 23:13:59,450][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 23:14:00,328][core.rollouts.quality_sim][INFO] - Step 1 completed in 1019.303 (index 36)
+[2025-02-06 23:17:00,261][core.rollouts.quality_sim][INFO] - Step 2 completed in 4390.011 (index 5)
+[2025-02-06 23:17:00,262][core.rollouts.quality_sim][INFO] - Total cost: 31.999
+[2025-02-06 23:17:00,262][core.rollouts.quality_sim][INFO] - Completed: 5
+[2025-02-06 23:17:53,417][core.llm_api.llm][INFO] - `is_valid` success rate: 75.00%
+[2025-02-06 23:18:15,894][core.rollouts.quality_sim][INFO] - Step 0 completed in 75.631 (index 39)
+[2025-02-06 23:19:16,992][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 23:19:18,072][core.rollouts.quality_sim][INFO] - Step 0 completed in 2245.235 (index 33)
+[2025-02-06 23:20:01,481][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 23:20:52,942][core.rollouts.quality_sim][INFO] - Step 1 completed in 157.046 (index 39)
+[2025-02-06 23:22:48,437][core.llm_api.llm][INFO] - `is_valid` success rate: 66.67%
+[2025-02-06 23:22:49,475][core.rollouts.quality_sim][INFO] - Step 2 completed in 3324.447 (index 26)
+[2025-02-06 23:22:49,476][core.rollouts.quality_sim][INFO] - Total cost: 33.659
+[2025-02-06 23:22:49,476][core.rollouts.quality_sim][INFO] - Completed: 26
+[2025-02-06 23:23:48,706][core.llm_api.llm][INFO] - `is_valid` success rate: 41.67%
+[2025-02-06 23:24:58,480][core.rollouts.quality_sim][INFO] - Step 2 completed in 1008.314 (index 11)
+[2025-02-06 23:24:58,482][core.rollouts.quality_sim][INFO] - Total cost: 34.057
+[2025-02-06 23:24:58,482][core.rollouts.quality_sim][INFO] - Completed: 11
+[2025-02-06 23:27:48,947][core.rollouts.quality_sim][INFO] - Step 2 completed in 1372.483 (index 37)
+[2025-02-06 23:27:48,953][core.rollouts.quality_sim][INFO] - Total cost: 34.909
+[2025-02-06 23:27:48,953][core.rollouts.quality_sim][INFO] - Completed: 37
+[2025-02-06 23:29:36,991][core.rollouts.quality_sim][INFO] - Step 2 completed in 2694.725 (index 29)
+[2025-02-06 23:29:36,992][core.rollouts.quality_sim][INFO] - Total cost: 35.471
+[2025-02-06 23:29:36,992][core.rollouts.quality_sim][INFO] - Completed: 29
+[2025-02-06 23:30:27,429][core.rollouts.quality_sim][INFO] - Step 2 completed in 4112.663 (index 22)
+[2025-02-06 23:30:27,430][core.rollouts.quality_sim][INFO] - Total cost: 35.752
+[2025-02-06 23:30:27,430][core.rollouts.quality_sim][INFO] - Completed: 22
+[2025-02-06 23:31:21,695][core.llm_api.llm][INFO] - `is_valid` success rate: 66.67%
+[2025-02-06 23:32:11,104][core.llm_api.llm][INFO] - `is_valid` success rate: 58.33%
+[2025-02-06 23:33:25,069][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 23:34:11,453][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 23:34:12,769][core.rollouts.quality_sim][INFO] - Step 1 completed in 3239.806 (index 9)
+[2025-02-06 23:34:49,960][core.llm_api.llm][INFO] - `is_valid` success rate: 66.67%
+[2025-02-06 23:34:50,755][core.rollouts.quality_sim][INFO] - Step 1 completed in 1416.393 (index 8)
+[2025-02-06 23:35:53,340][core.llm_api.llm][INFO] - `is_valid` success rate: 58.33%
+[2025-02-06 23:36:46,482][core.rollouts.quality_sim][INFO] - Step 2 completed in 2318.744 (index 28)
+[2025-02-06 23:36:46,483][core.rollouts.quality_sim][INFO] - Total cost: 37.207
+[2025-02-06 23:36:46,484][core.rollouts.quality_sim][INFO] - Completed: 28
+[2025-02-06 23:37:40,339][core.rollouts.quality_sim][INFO] - Step 0 completed in 8532.368 (index 21)
+[2025-02-06 23:38:47,725][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 23:39:38,626][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 23:39:39,340][core.rollouts.quality_sim][INFO] - Step 0 completed in 9320.236 (index 15)
+[2025-02-06 23:40:36,378][core.llm_api.llm][INFO] - `is_valid` success rate: 58.33%
+[2025-02-06 23:42:17,860][core.rollouts.quality_sim][INFO] - Step 1 completed in 1809.962 (index 14)
+[2025-02-06 23:43:58,626][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 23:43:59,506][core.rollouts.quality_sim][INFO] - Step 0 completed in 2050.657 (index 38)
+[2025-02-06 23:45:48,527][core.rollouts.quality_sim][INFO] - Step 2 completed in 2555.541 (index 2)
+[2025-02-06 23:45:48,531][core.rollouts.quality_sim][INFO] - Total cost: 39.744
+[2025-02-06 23:45:48,531][core.rollouts.quality_sim][INFO] - Completed: 2
+[2025-02-06 23:46:37,540][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 23:47:34,270][core.rollouts.quality_sim][INFO] - Step 2 completed in 1601.327 (index 39)
+[2025-02-06 23:47:34,274][core.rollouts.quality_sim][INFO] - Total cost: 40.288
+[2025-02-06 23:47:34,274][core.rollouts.quality_sim][INFO] - Completed: 39
+[2025-02-06 23:48:42,307][core.rollouts.quality_sim][INFO] - Step 1 completed in 1764.235 (index 33)
+[2025-02-06 23:49:31,728][core.llm_api.llm][INFO] - `is_valid` success rate: 66.67%
+[2025-02-06 23:50:32,645][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 23:51:09,724][core.llm_api.llm][INFO] - `is_valid` success rate: 66.67%
+[2025-02-06 23:51:10,558][core.rollouts.quality_sim][INFO] - Step 0 completed in 4374.299 (index 32)
+[2025-02-06 23:52:21,808][core.rollouts.quality_sim][INFO] - Step 0 completed in 10082.704 (index 10)
+[2025-02-06 23:52:53,047][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 23:53:57,568][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-06 23:53:58,226][core.rollouts.quality_sim][INFO] - Step 2 completed in 2397.897 (index 36)
+[2025-02-06 23:53:58,227][core.rollouts.quality_sim][INFO] - Total cost: 41.980
+[2025-02-06 23:53:58,227][core.rollouts.quality_sim][INFO] - Completed: 36
+[2025-02-06 23:54:46,720][core.llm_api.llm][INFO] - `is_valid` success rate: 75.00%
+[2025-02-06 23:55:40,899][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-06 23:55:41,766][core.rollouts.quality_sim][INFO] - Step 0 completed in 10282.662 (index 17)
+[2025-02-06 23:56:48,367][core.llm_api.llm][INFO] - `is_valid` success rate: 33.33%
+[2025-02-06 23:57:26,350][core.llm_api.llm][INFO] - `is_valid` success rate: 41.67%
+[2025-02-06 23:57:27,142][core.rollouts.quality_sim][INFO] - Step 0 completed in 10388.039 (index 7)
+[2025-02-07 00:00:28,251][core.rollouts.quality_sim][INFO] - Step 2 completed in 1575.482 (index 9)
+[2025-02-07 00:00:28,256][core.rollouts.quality_sim][INFO] - Total cost: 43.494
+[2025-02-07 00:00:28,256][core.rollouts.quality_sim][INFO] - Completed: 9
+[2025-02-07 00:01:08,918][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-07 00:02:45,196][core.rollouts.quality_sim][INFO] - Step 1 completed in 1504.856 (index 21)
+[2025-02-07 00:02:53,200][core.rollouts.quality_sim][INFO] - Step 1 completed in 1393.860 (index 15)
+[2025-02-07 00:05:00,607][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-07 00:05:01,435][core.rollouts.quality_sim][INFO] - Step 1 completed in 1261.928 (index 38)
+[2025-02-07 00:06:38,575][core.llm_api.llm][INFO] - `is_valid` success rate: 66.67%
+[2025-02-07 00:07:37,315][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-07 00:07:38,920][core.rollouts.quality_sim][INFO] - Step 2 completed in 1968.164 (index 8)
+[2025-02-07 00:07:38,920][core.rollouts.quality_sim][INFO] - Total cost: 45.560
+[2025-02-07 00:07:38,920][core.rollouts.quality_sim][INFO] - Completed: 8
+[2025-02-07 00:08:33,397][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-07 00:09:30,030][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-07 00:09:32,754][core.rollouts.quality_sim][INFO] - Step 2 completed in 1634.891 (index 14)
+[2025-02-07 00:09:32,755][core.rollouts.quality_sim][INFO] - Total cost: 46.084
+[2025-02-07 00:09:32,755][core.rollouts.quality_sim][INFO] - Completed: 14
+[2025-02-07 00:10:33,603][core.rollouts.quality_sim][INFO] - Step 1 completed in 1163.044 (index 32)
+[2025-02-07 00:11:36,070][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-07 00:12:37,364][core.rollouts.quality_sim][INFO] - Step 2 completed in 1435.055 (index 33)
+[2025-02-07 00:12:37,366][core.rollouts.quality_sim][INFO] - Total cost: 46.932
+[2025-02-07 00:12:37,366][core.rollouts.quality_sim][INFO] - Completed: 33
+[2025-02-07 00:14:20,803][core.rollouts.quality_sim][INFO] - Step 1 completed in 1318.993 (index 10)
+[2025-02-07 00:15:18,497][core.llm_api.llm][INFO] - `is_valid` success rate: 58.33%
+[2025-02-07 00:16:11,004][core.llm_api.llm][INFO] - `is_valid` success rate: 75.00%
+[2025-02-07 00:16:11,667][core.rollouts.quality_sim][INFO] - Step 1 completed in 1229.899 (index 17)
+[2025-02-07 00:17:48,925][core.llm_api.llm][INFO] - `is_valid` success rate: 25.00%
+[2025-02-07 00:17:48,927][core.llm_api.llm][INFO] - Padded 3 valid responses with 1 invalid responses to get 4 total responses
+[2025-02-07 00:18:16,765][core.llm_api.llm][INFO] - `is_valid` success rate: 66.67%
+[2025-02-07 00:18:17,387][core.rollouts.quality_sim][INFO] - Step 1 completed in 1250.244 (index 7)
+[2025-02-07 00:20:06,937][core.rollouts.quality_sim][INFO] - Step 2 completed in 1041.741 (index 21)
+[2025-02-07 00:20:06,939][core.rollouts.quality_sim][INFO] - Total cost: 48.755
+[2025-02-07 00:20:06,940][core.rollouts.quality_sim][INFO] - Completed: 21
+[2025-02-07 00:20:49,952][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-07 00:22:21,650][core.rollouts.quality_sim][INFO] - Step 2 completed in 1168.449 (index 15)
+[2025-02-07 00:22:21,651][core.rollouts.quality_sim][INFO] - Total cost: 49.332
+[2025-02-07 00:22:21,652][core.rollouts.quality_sim][INFO] - Completed: 15
+[2025-02-07 00:23:16,692][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-07 00:23:49,200][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-07 00:23:49,700][core.rollouts.quality_sim][INFO] - Step 2 completed in 1128.264 (index 38)
+[2025-02-07 00:23:49,701][core.rollouts.quality_sim][INFO] - Total cost: 49.831
+[2025-02-07 00:23:49,701][core.rollouts.quality_sim][INFO] - Completed: 38
+[2025-02-07 00:26:43,844][core.llm_api.llm][INFO] - `is_valid` success rate: 91.67%
+[2025-02-07 00:26:44,384][core.rollouts.quality_sim][INFO] - Step 2 completed in 970.778 (index 32)
+[2025-02-07 00:26:44,385][core.rollouts.quality_sim][INFO] - Total cost: 50.698
+[2025-02-07 00:26:44,385][core.rollouts.quality_sim][INFO] - Completed: 32
+[2025-02-07 00:27:46,945][core.rollouts.quality_sim][INFO] - Step 2 completed in 806.141 (index 10)
+[2025-02-07 00:27:46,947][core.rollouts.quality_sim][INFO] - Total cost: 50.989
+[2025-02-07 00:27:46,947][core.rollouts.quality_sim][INFO] - Completed: 10
+[2025-02-07 00:29:41,573][core.llm_api.llm][INFO] - `is_valid` success rate: 83.33%
+[2025-02-07 00:29:42,081][core.rollouts.quality_sim][INFO] - Step 2 completed in 810.414 (index 17)
+[2025-02-07 00:29:42,082][core.rollouts.quality_sim][INFO] - Total cost: 51.535
+[2025-02-07 00:29:42,082][core.rollouts.quality_sim][INFO] - Completed: 17
+[2025-02-07 00:30:42,059][core.llm_api.llm][INFO] - `is_valid` success rate: 58.33%
+[2025-02-07 00:31:39,787][core.llm_api.llm][INFO] - `is_valid` success rate: 66.67%
+[2025-02-07 00:31:40,432][core.rollouts.quality_sim][INFO] - Step 2 completed in 803.041 (index 7)
+[2025-02-07 00:31:40,433][core.rollouts.quality_sim][INFO] - Total cost: 51.943
+[2025-02-07 00:31:40,433][core.rollouts.quality_sim][INFO] - Completed: 7
+[2025-02-07 00:31:40,434][__main__][INFO] - Processed 40 rows. 40  were complete.
+[2025-02-07 00:31:41,095][__main__][INFO] - Time taken: 3:27:21.994646
